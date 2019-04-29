@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:logic-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -19,7 +20,7 @@ U 1 1 5E1D5D0F
 P 9550 1400
 F 0 "J0" V 9767 1396 50  0000 C CNN
 F 1 "COLS" V 9676 1396 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x15_Pitch1.27mm" H 9550 1400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x15_P2.00mm_Vertical" H 9550 1400 50  0001 C CNN
 F 3 "~" H 9550 1400 50  0001 C CNN
 	1    9550 1400
 	0    -1   -1   0   
@@ -30,7 +31,7 @@ U 1 1 5E1D728E
 P 8350 3050
 F 0 "J1" H 8300 2250 50  0000 C CNN
 F 1 "ROWS" H 8300 3850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x15_Pitch1.27mm" H 8350 3050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x15_P2.00mm_Vertical" H 8350 3050 50  0001 C CNN
 F 3 "~" H 8350 3050 50  0001 C CNN
 	1    8350 3050
 	-1   0    0    1   
@@ -101,7 +102,7 @@ U 1 1 5C22C0C9
 P 6900 1500
 F 0 "J2" H 6620 1596 50  0000 R CNN
 F 1 "ISP-PROG-6" H 6620 1505 50  0000 R CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" V 6650 1550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 6650 1550 50  0001 C CNN
 F 3 " ~" H 5625 950 50  0001 C CNN
 	1    6900 1500
 	1    0    0    -1  
@@ -114,9 +115,9 @@ Text GLabel 7300 1600 2    50   Input ~ 0
 RESET
 Text GLabel 1950 5700 0    50   Input ~ 0
 RESET
-Text GLabel 3950 2700 2    50   Input ~ 0
+Text GLabel 1950 5500 0    50   Input ~ 0
 SWDIO
-Text GLabel 3950 2600 2    50   Input ~ 0
+Text GLabel 1950 5400 0    50   Input ~ 0
 SWCLK
 Text GLabel 1950 4000 0    50   Input ~ 0
 COL_14
@@ -160,9 +161,9 @@ Text GLabel 1950 5200 0    50   Input ~ 0
 ROW_11
 Text GLabel 1950 5300 0    50   Input ~ 0
 ROW_12
-Text GLabel 1950 5400 0    50   Input ~ 0
+Text GLabel 3950 2600 2    50   Input ~ 0
 ROW_13
-Text GLabel 1950 5500 0    50   Input ~ 0
+Text GLabel 3950 2700 2    50   Input ~ 0
 ROW_14
 Text GLabel 1950 4700 0    50   Input ~ 0
 ROW_6
@@ -181,12 +182,12 @@ ROW_0
 $Comp
 L Custom_Library:BMA250E U1
 U 1 1 5C22CD64
-P 8300 5650
-F 0 "U1" H 8350 6328 50  0000 C CNN
-F 1 "BMA250E" H 8350 6237 50  0000 C CNN
-F 2 "Housings_LGA:LGA-12_2x2mm_Pitch0.5mm" H 8450 6200 50  0001 L CNN
-F 3 "www.st.com/resource/en/datasheet/lis2hh12.pdf" H 7950 5650 50  0001 C CNN
-	1    8300 5650
+P 6550 5250
+F 0 "U1" H 6600 5928 50  0000 C CNN
+F 1 "BMA250E" H 6600 5837 50  0000 C CNN
+F 2 "Package_LGA:LGA-12_2x2mm_P0.5mm" H 6700 5800 50  0001 L CNN
+F 3 "www.st.com/resource/en/datasheet/lis2hh12.pdf" H 6200 5250 50  0001 C CNN
+	1    6550 5250
 	1    0    0    -1  
 $EndComp
 $Comp

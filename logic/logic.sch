@@ -115,9 +115,9 @@ Text GLabel 7300 1600 2    50   Input ~ 0
 RESET
 Text GLabel 1950 5700 0    50   Input ~ 0
 RESET
-Text GLabel 3950 2700 2    50   Input ~ 0
+Text GLabel 1950 5500 0    50   Input ~ 0
 SWDIO
-Text GLabel 3950 2600 2    50   Input ~ 0
+Text GLabel 1950 5400 0    50   Input ~ 0
 SWCLK
 Text GLabel 1950 4000 0    50   Input ~ 0
 COL_14
@@ -149,21 +149,21 @@ Text GLabel 1950 2700 0    50   Input ~ 0
 COL_1
 Text GLabel 1950 2600 0    50   Input ~ 0
 COL_0
-Text GLabel 1950 4800 0    50   Input ~ 0
-ROW_7
-Text GLabel 1950 4900 0    50   Input ~ 0
-ROW_8
-Text GLabel 1950 5000 0    50   Input ~ 0
-ROW_9
-Text GLabel 1950 5100 0    50   Input ~ 0
-ROW_10
-Text GLabel 1950 5200 0    50   Input ~ 0
-ROW_11
 Text GLabel 1950 5300 0    50   Input ~ 0
+ROW_7
+Text GLabel 1950 5200 0    50   Input ~ 0
+ROW_8
+Text GLabel 3950 3300 2    50   Input ~ 0
+ROW_9
+Text GLabel 3950 3200 2    50   Input ~ 0
+ROW_10
+Text GLabel 1950 5100 0    50   Input ~ 0
+ROW_11
+Text GLabel 1950 5000 0    50   Input ~ 0
 ROW_12
-Text GLabel 1950 5400 0    50   Input ~ 0
+Text GLabel 1950 4900 0    50   Input ~ 0
 ROW_13
-Text GLabel 1950 5500 0    50   Input ~ 0
+Text GLabel 1950 4800 0    50   Input ~ 0
 ROW_14
 Text GLabel 1950 4700 0    50   Input ~ 0
 ROW_6
