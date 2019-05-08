@@ -1,0 +1,1127 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED_ALT D8
+U 1 1 5D001FD4
+P 4800 9050
+F 0 "D8" H 4791 9266 50  0000 C CNN
+F 1 "LED_ALT" H 4791 9175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4800 9050 50  0001 C CNN
+F 3 "~" H 4800 9050 50  0001 C CNN
+	1    4800 9050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D7
+U 1 1 5D001FF0
+P 4400 9050
+F 0 "D7" H 4391 9266 50  0000 C CNN
+F 1 "LED_ALT" H 4391 9175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4400 9050 50  0001 C CNN
+F 3 "~" H 4400 9050 50  0001 C CNN
+	1    4400 9050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D6
+U 1 1 5D00200C
+P 4000 9050
+F 0 "D6" H 3991 9266 50  0000 C CNN
+F 1 "LED_ALT" H 3991 9175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4000 9050 50  0001 C CNN
+F 3 "~" H 4000 9050 50  0001 C CNN
+	1    4000 9050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D5
+U 1 1 5D002028
+P 3600 9050
+F 0 "D5" H 3591 9266 50  0000 C CNN
+F 1 "LED_ALT" H 3591 9175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 3600 9050 50  0001 C CNN
+F 3 "~" H 3600 9050 50  0001 C CNN
+	1    3600 9050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D4
+U 1 1 5D00FA90
+P 3200 9050
+F 0 "D4" H 3191 9266 50  0000 C CNN
+F 1 "LED_ALT" H 3191 9175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 3200 9050 50  0001 C CNN
+F 3 "~" H 3200 9050 50  0001 C CNN
+	1    3200 9050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D3
+U 1 1 5D00FAAC
+P 2800 9050
+F 0 "D3" H 2791 9266 50  0000 C CNN
+F 1 "LED_ALT" H 2791 9175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 2800 9050 50  0001 C CNN
+F 3 "~" H 2800 9050 50  0001 C CNN
+	1    2800 9050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D2
+U 1 1 5D00FAC8
+P 2400 9050
+F 0 "D2" H 2391 9266 50  0000 C CNN
+F 1 "LED_ALT" H 2391 9175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 2400 9050 50  0001 C CNN
+F 3 "~" H 2400 9050 50  0001 C CNN
+	1    2400 9050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D1
+U 1 1 5D00FAE4
+P 1950 9050
+F 0 "D1" H 1950 9250 50  0000 C CNN
+F 1 "LED_ALT" H 1950 9150 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 1950 9050 50  0001 C CNN
+F 3 "~" H 1950 9050 50  0001 C CNN
+	1    1950 9050
+	0    1    1    0   
+$EndComp
+$Comp
+L Custom_Library:MAX6951 U1
+U 1 1 5CEFFED6
+P 10300 5600
+F 0 "U1" H 10300 6481 50  0000 C CNN
+F 1 "MAX6951" H 10300 6390 50  0000 C CNN
+F 2 "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm" H 10300 4800 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX6950-MAX6951.pdf" H 10300 5600 50  0001 C CNN
+	1    10300 5600
+	1    0    0    -1  
+$EndComp
+Text GLabel 11050 5300 1    50   Input ~ 0
+DIG3
+Text GLabel 11200 5300 1    50   Input ~ 0
+SEG3
+Text GLabel 11350 5400 1    50   Input ~ 0
+DIG2
+Text GLabel 11500 5400 1    50   Input ~ 0
+SEG2
+Text GLabel 11650 5500 1    50   Input ~ 0
+DIG1
+Text GLabel 11800 5500 1    50   Input ~ 0
+SEG1
+Text GLabel 11950 5600 1    50   Input ~ 0
+DIG0
+Text GLabel 12100 5600 1    50   Input ~ 0
+SEG0
+Text GLabel 12250 5700 1    50   Input ~ 0
+DIG4
+Text GLabel 12400 5700 1    50   Input ~ 0
+SEG4
+Text GLabel 12550 5800 1    50   Input ~ 0
+DIG5
+Text GLabel 12700 5800 1    50   Input ~ 0
+SEG5
+Text GLabel 12850 5900 1    50   Input ~ 0
+DIG6
+Text GLabel 13000 5900 1    50   Input ~ 0
+SEG6
+Text GLabel 13150 6000 1    50   Input ~ 0
+DIG7
+Text GLabel 13300 6000 1    50   Input ~ 0
+SEG7
+Text GLabel 13550 6100 1    50   Input ~ 0
+SEG8
+Wire Wire Line
+	10800 5300 11200 5300
+Wire Wire Line
+	10800 5400 11500 5400
+Wire Wire Line
+	10800 5500 11800 5500
+Wire Wire Line
+	10800 5600 12100 5600
+Wire Wire Line
+	10800 5700 12400 5700
+Wire Wire Line
+	10800 5800 12700 5800
+Wire Wire Line
+	10800 5900 13000 5900
+Wire Wire Line
+	10800 6000 13300 6000
+Wire Wire Line
+	10800 6100 13550 6100
+Text GLabel 3400 8750 1    50   Input ~ 0
+DIG0
+Text GLabel 1950 9200 3    50   Input ~ 0
+SEG1
+Text GLabel 2400 9200 3    50   Input ~ 0
+SEG2
+Text GLabel 2800 9200 3    50   Input ~ 0
+SEG3
+Text GLabel 3200 9200 3    50   Input ~ 0
+SEG4
+Text GLabel 3600 9200 3    50   Input ~ 0
+SEG5
+Text GLabel 4000 9200 3    50   Input ~ 0
+SEG6
+Text GLabel 4400 9200 3    50   Input ~ 0
+SEG7
+Text GLabel 4800 9200 3    50   Input ~ 0
+SEG8
+Wire Wire Line
+	1950 8900 2400 8900
+Connection ~ 2400 8900
+Wire Wire Line
+	2400 8900 2800 8900
+Connection ~ 2800 8900
+Wire Wire Line
+	2800 8900 3200 8900
+Connection ~ 3200 8900
+Wire Wire Line
+	3200 8900 3400 8900
+Connection ~ 3600 8900
+Wire Wire Line
+	3600 8900 4000 8900
+Connection ~ 4000 8900
+Wire Wire Line
+	4000 8900 4400 8900
+Connection ~ 4400 8900
+Wire Wire Line
+	4400 8900 4800 8900
+Wire Wire Line
+	3400 8750 3400 8900
+Connection ~ 3400 8900
+Wire Wire Line
+	3400 8900 3600 8900
+$Comp
+L Device:LED_ALT D64
+U 1 1 5D685B2E
+P 4800 8050
+F 0 "D64" H 4791 8266 50  0000 C CNN
+F 1 "LED_ALT" H 4791 8175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4800 8050 50  0001 C CNN
+F 3 "~" H 4800 8050 50  0001 C CNN
+	1    4800 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D57
+U 1 1 5D685B38
+P 4400 8050
+F 0 "D57" H 4391 8266 50  0000 C CNN
+F 1 "LED_ALT" H 4391 8175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4400 8050 50  0001 C CNN
+F 3 "~" H 4400 8050 50  0001 C CNN
+	1    4400 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D50
+U 1 1 5D685B42
+P 4000 8050
+F 0 "D50" H 3991 8266 50  0000 C CNN
+F 1 "LED_ALT" H 3991 8175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4000 8050 50  0001 C CNN
+F 3 "~" H 4000 8050 50  0001 C CNN
+	1    4000 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D43
+U 1 1 5D685B4C
+P 3600 8050
+F 0 "D43" H 3591 8266 50  0000 C CNN
+F 1 "LED_ALT" H 3591 8175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 3600 8050 50  0001 C CNN
+F 3 "~" H 3600 8050 50  0001 C CNN
+	1    3600 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D36
+U 1 1 5D685B56
+P 3200 8050
+F 0 "D36" H 3191 8266 50  0000 C CNN
+F 1 "LED_ALT" H 3191 8175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 3200 8050 50  0001 C CNN
+F 3 "~" H 3200 8050 50  0001 C CNN
+	1    3200 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D29
+U 1 1 5D685B60
+P 2800 8050
+F 0 "D29" H 2791 8266 50  0000 C CNN
+F 1 "LED_ALT" H 2791 8175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 2800 8050 50  0001 C CNN
+F 3 "~" H 2800 8050 50  0001 C CNN
+	1    2800 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D22
+U 1 1 5D685B6A
+P 2400 8050
+F 0 "D22" H 2391 8266 50  0000 C CNN
+F 1 "LED_ALT" H 2391 8175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 2400 8050 50  0001 C CNN
+F 3 "~" H 2400 8050 50  0001 C CNN
+	1    2400 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D15
+U 1 1 5D685B74
+P 1950 8050
+F 0 "D15" H 1950 8250 50  0000 C CNN
+F 1 "LED_ALT" H 1950 8150 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 1950 8050 50  0001 C CNN
+F 3 "~" H 1950 8050 50  0001 C CNN
+	1    1950 8050
+	0    1    1    0   
+$EndComp
+Text GLabel 3400 7750 1    50   Input ~ 0
+DIG1
+Text GLabel 1950 8200 3    50   Input ~ 0
+SEG0
+Text GLabel 2400 8200 3    50   Input ~ 0
+SEG2
+Text GLabel 2800 8200 3    50   Input ~ 0
+SEG3
+Text GLabel 3200 8200 3    50   Input ~ 0
+SEG4
+Text GLabel 3600 8200 3    50   Input ~ 0
+SEG5
+Text GLabel 4000 8200 3    50   Input ~ 0
+SEG6
+Text GLabel 4400 8200 3    50   Input ~ 0
+SEG7
+Text GLabel 4800 8200 3    50   Input ~ 0
+SEG8
+Wire Wire Line
+	1950 7900 2400 7900
+Connection ~ 2400 7900
+Wire Wire Line
+	2400 7900 2800 7900
+Connection ~ 2800 7900
+Wire Wire Line
+	2800 7900 3200 7900
+Connection ~ 3200 7900
+Wire Wire Line
+	3200 7900 3400 7900
+Connection ~ 3600 7900
+Wire Wire Line
+	3600 7900 4000 7900
+Connection ~ 4000 7900
+Wire Wire Line
+	4000 7900 4400 7900
+Connection ~ 4400 7900
+Wire Wire Line
+	4400 7900 4800 7900
+Wire Wire Line
+	3400 7750 3400 7900
+Connection ~ 3400 7900
+Wire Wire Line
+	3400 7900 3600 7900
+$Comp
+L Device:LED_ALT D63
+U 1 1 5D698614
+P 4800 7050
+F 0 "D63" H 4791 7266 50  0000 C CNN
+F 1 "LED_ALT" H 4791 7175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4800 7050 50  0001 C CNN
+F 3 "~" H 4800 7050 50  0001 C CNN
+	1    4800 7050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D56
+U 1 1 5D69861E
+P 4400 7050
+F 0 "D56" H 4391 7266 50  0000 C CNN
+F 1 "LED_ALT" H 4391 7175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4400 7050 50  0001 C CNN
+F 3 "~" H 4400 7050 50  0001 C CNN
+	1    4400 7050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D49
+U 1 1 5D698628
+P 4000 7050
+F 0 "D49" H 3991 7266 50  0000 C CNN
+F 1 "LED_ALT" H 3991 7175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4000 7050 50  0001 C CNN
+F 3 "~" H 4000 7050 50  0001 C CNN
+	1    4000 7050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D42
+U 1 1 5D698632
+P 3600 7050
+F 0 "D42" H 3591 7266 50  0000 C CNN
+F 1 "LED_ALT" H 3591 7175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 3600 7050 50  0001 C CNN
+F 3 "~" H 3600 7050 50  0001 C CNN
+	1    3600 7050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D35
+U 1 1 5D69863C
+P 3200 7050
+F 0 "D35" H 3191 7266 50  0000 C CNN
+F 1 "LED_ALT" H 3191 7175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 3200 7050 50  0001 C CNN
+F 3 "~" H 3200 7050 50  0001 C CNN
+	1    3200 7050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D28
+U 1 1 5D698646
+P 2800 7050
+F 0 "D28" H 2791 7266 50  0000 C CNN
+F 1 "LED_ALT" H 2791 7175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 2800 7050 50  0001 C CNN
+F 3 "~" H 2800 7050 50  0001 C CNN
+	1    2800 7050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D21
+U 1 1 5D698650
+P 2400 7050
+F 0 "D21" H 2391 7266 50  0000 C CNN
+F 1 "LED_ALT" H 2391 7175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 2400 7050 50  0001 C CNN
+F 3 "~" H 2400 7050 50  0001 C CNN
+	1    2400 7050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D14
+U 1 1 5D69865A
+P 1950 7050
+F 0 "D14" H 1950 7250 50  0000 C CNN
+F 1 "LED_ALT" H 1950 7150 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 1950 7050 50  0001 C CNN
+F 3 "~" H 1950 7050 50  0001 C CNN
+	1    1950 7050
+	0    1    1    0   
+$EndComp
+Text GLabel 3400 6750 1    50   Input ~ 0
+DIG2
+Text GLabel 1950 7200 3    50   Input ~ 0
+SEG0
+Text GLabel 2400 7200 3    50   Input ~ 0
+SEG1
+Text GLabel 2800 7200 3    50   Input ~ 0
+SEG3
+Text GLabel 3200 7200 3    50   Input ~ 0
+SEG4
+Text GLabel 3600 7200 3    50   Input ~ 0
+SEG5
+Text GLabel 4000 7200 3    50   Input ~ 0
+SEG6
+Text GLabel 4400 7200 3    50   Input ~ 0
+SEG7
+Text GLabel 4800 7200 3    50   Input ~ 0
+SEG8
+Wire Wire Line
+	1950 6900 2400 6900
+Connection ~ 2400 6900
+Wire Wire Line
+	2400 6900 2800 6900
+Connection ~ 2800 6900
+Wire Wire Line
+	2800 6900 3200 6900
+Connection ~ 3200 6900
+Wire Wire Line
+	3200 6900 3400 6900
+Connection ~ 3600 6900
+Wire Wire Line
+	3600 6900 4000 6900
+Connection ~ 4000 6900
+Wire Wire Line
+	4000 6900 4400 6900
+Connection ~ 4400 6900
+Wire Wire Line
+	4400 6900 4800 6900
+Wire Wire Line
+	3400 6750 3400 6900
+Connection ~ 3400 6900
+Wire Wire Line
+	3400 6900 3600 6900
+$Comp
+L Device:LED_ALT D62
+U 1 1 5D6A1142
+P 4800 6050
+F 0 "D62" H 4791 6266 50  0000 C CNN
+F 1 "LED_ALT" H 4791 6175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4800 6050 50  0001 C CNN
+F 3 "~" H 4800 6050 50  0001 C CNN
+	1    4800 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D55
+U 1 1 5D6A114C
+P 4400 6050
+F 0 "D55" H 4391 6266 50  0000 C CNN
+F 1 "LED_ALT" H 4391 6175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4400 6050 50  0001 C CNN
+F 3 "~" H 4400 6050 50  0001 C CNN
+	1    4400 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D48
+U 1 1 5D6A1156
+P 4000 6050
+F 0 "D48" H 3991 6266 50  0000 C CNN
+F 1 "LED_ALT" H 3991 6175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4000 6050 50  0001 C CNN
+F 3 "~" H 4000 6050 50  0001 C CNN
+	1    4000 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D41
+U 1 1 5D6A1160
+P 3600 6050
+F 0 "D41" H 3591 6266 50  0000 C CNN
+F 1 "LED_ALT" H 3591 6175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 3600 6050 50  0001 C CNN
+F 3 "~" H 3600 6050 50  0001 C CNN
+	1    3600 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D34
+U 1 1 5D6A116A
+P 3200 6050
+F 0 "D34" H 3191 6266 50  0000 C CNN
+F 1 "LED_ALT" H 3191 6175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 3200 6050 50  0001 C CNN
+F 3 "~" H 3200 6050 50  0001 C CNN
+	1    3200 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D27
+U 1 1 5D6A1174
+P 2800 6050
+F 0 "D27" H 2791 6266 50  0000 C CNN
+F 1 "LED_ALT" H 2791 6175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 2800 6050 50  0001 C CNN
+F 3 "~" H 2800 6050 50  0001 C CNN
+	1    2800 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D20
+U 1 1 5D6A117E
+P 2400 6050
+F 0 "D20" H 2391 6266 50  0000 C CNN
+F 1 "LED_ALT" H 2391 6175 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 2400 6050 50  0001 C CNN
+F 3 "~" H 2400 6050 50  0001 C CNN
+	1    2400 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D13
+U 1 1 5D6A1188
+P 1950 6050
+F 0 "D13" H 1950 6250 50  0000 C CNN
+F 1 "LED_ALT" H 1950 6150 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 1950 6050 50  0001 C CNN
+F 3 "~" H 1950 6050 50  0001 C CNN
+	1    1950 6050
+	0    1    1    0   
+$EndComp
+Text GLabel 3400 5750 1    50   Input ~ 0
+DIG3
+Text GLabel 1950 6200 3    50   Input ~ 0
+SEG0
+Text GLabel 2400 6200 3    50   Input ~ 0
+SEG1
+Text GLabel 2800 6200 3    50   Input ~ 0
+SEG2
+Text GLabel 3200 6200 3    50   Input ~ 0
+SEG4
+Text GLabel 3600 6200 3    50   Input ~ 0
+SEG5
+Text GLabel 4000 6200 3    50   Input ~ 0
+SEG6
+Text GLabel 4400 6200 3    50   Input ~ 0
+SEG7
+Text GLabel 4800 6200 3    50   Input ~ 0
+SEG8
+Wire Wire Line
+	1950 5900 2400 5900
+Connection ~ 2400 5900
+Wire Wire Line
+	2400 5900 2800 5900
+Connection ~ 2800 5900
+Wire Wire Line
+	2800 5900 3200 5900
+Connection ~ 3200 5900
+Wire Wire Line
+	3200 5900 3400 5900
+Connection ~ 3600 5900
+Wire Wire Line
+	3600 5900 4000 5900
+Connection ~ 4000 5900
+Wire Wire Line
+	4000 5900 4400 5900
+Connection ~ 4400 5900
+Wire Wire Line
+	4400 5900 4800 5900
+Wire Wire Line
+	3400 5750 3400 5900
+Connection ~ 3400 5900
+Wire Wire Line
+	3400 5900 3600 5900
+$Comp
+L Device:LED_ALT D61
+U 1 1 5D6E9F75
+P 4800 5000
+F 0 "D61" H 4791 5216 50  0000 C CNN
+F 1 "LED_ALT" H 4791 5125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4800 5000 50  0001 C CNN
+F 3 "~" H 4800 5000 50  0001 C CNN
+	1    4800 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D54
+U 1 1 5D6E9F7F
+P 4400 5000
+F 0 "D54" H 4391 5216 50  0000 C CNN
+F 1 "LED_ALT" H 4391 5125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4400 5000 50  0001 C CNN
+F 3 "~" H 4400 5000 50  0001 C CNN
+	1    4400 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D47
+U 1 1 5D6E9F89
+P 4000 5000
+F 0 "D47" H 3991 5216 50  0000 C CNN
+F 1 "LED_ALT" H 3991 5125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4000 5000 50  0001 C CNN
+F 3 "~" H 4000 5000 50  0001 C CNN
+	1    4000 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D40
+U 1 1 5D6E9F93
+P 3600 5000
+F 0 "D40" H 3591 5216 50  0000 C CNN
+F 1 "LED_ALT" H 3591 5125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 3600 5000 50  0001 C CNN
+F 3 "~" H 3600 5000 50  0001 C CNN
+	1    3600 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D33
+U 1 1 5D6E9F9D
+P 3200 5000
+F 0 "D33" H 3191 5216 50  0000 C CNN
+F 1 "LED_ALT" H 3191 5125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 3200 5000 50  0001 C CNN
+F 3 "~" H 3200 5000 50  0001 C CNN
+	1    3200 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D26
+U 1 1 5D6E9FA7
+P 2800 5000
+F 0 "D26" H 2791 5216 50  0000 C CNN
+F 1 "LED_ALT" H 2791 5125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 2800 5000 50  0001 C CNN
+F 3 "~" H 2800 5000 50  0001 C CNN
+	1    2800 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D19
+U 1 1 5D6E9FB1
+P 2400 5000
+F 0 "D19" H 2391 5216 50  0000 C CNN
+F 1 "LED_ALT" H 2391 5125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 2400 5000 50  0001 C CNN
+F 3 "~" H 2400 5000 50  0001 C CNN
+	1    2400 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D12
+U 1 1 5D6E9FBB
+P 1950 5000
+F 0 "D12" H 1950 5200 50  0000 C CNN
+F 1 "LED_ALT" H 1950 5100 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 1950 5000 50  0001 C CNN
+F 3 "~" H 1950 5000 50  0001 C CNN
+	1    1950 5000
+	0    1    1    0   
+$EndComp
+Text GLabel 3400 4700 1    50   Input ~ 0
+DIG4
+Text GLabel 1950 5150 3    50   Input ~ 0
+SEG0
+Text GLabel 2400 5150 3    50   Input ~ 0
+SEG1
+Text GLabel 2800 5150 3    50   Input ~ 0
+SEG2
+Text GLabel 3200 5150 3    50   Input ~ 0
+SEG3
+Text GLabel 3600 5150 3    50   Input ~ 0
+SEG5
+Text GLabel 4000 5150 3    50   Input ~ 0
+SEG6
+Text GLabel 4400 5150 3    50   Input ~ 0
+SEG7
+Text GLabel 4800 5150 3    50   Input ~ 0
+SEG8
+Wire Wire Line
+	1950 4850 2400 4850
+Connection ~ 2400 4850
+Wire Wire Line
+	2400 4850 2800 4850
+Connection ~ 2800 4850
+Wire Wire Line
+	2800 4850 3200 4850
+Connection ~ 3200 4850
+Wire Wire Line
+	3200 4850 3400 4850
+Connection ~ 3600 4850
+Wire Wire Line
+	3600 4850 4000 4850
+Connection ~ 4000 4850
+Wire Wire Line
+	4000 4850 4400 4850
+Connection ~ 4400 4850
+Wire Wire Line
+	4400 4850 4800 4850
+Wire Wire Line
+	3400 4700 3400 4850
+Connection ~ 3400 4850
+Wire Wire Line
+	3400 4850 3600 4850
+$Comp
+L Device:LED_ALT D60
+U 1 1 5D6E9FDE
+P 4800 4000
+F 0 "D60" H 4791 4216 50  0000 C CNN
+F 1 "LED_ALT" H 4791 4125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4800 4000 50  0001 C CNN
+F 3 "~" H 4800 4000 50  0001 C CNN
+	1    4800 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D53
+U 1 1 5D6E9FE8
+P 4400 4000
+F 0 "D53" H 4391 4216 50  0000 C CNN
+F 1 "LED_ALT" H 4391 4125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4400 4000 50  0001 C CNN
+F 3 "~" H 4400 4000 50  0001 C CNN
+	1    4400 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D46
+U 1 1 5D6E9FF2
+P 4000 4000
+F 0 "D46" H 3991 4216 50  0000 C CNN
+F 1 "LED_ALT" H 3991 4125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4000 4000 50  0001 C CNN
+F 3 "~" H 4000 4000 50  0001 C CNN
+	1    4000 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D39
+U 1 1 5D6E9FFC
+P 3600 4000
+F 0 "D39" H 3591 4216 50  0000 C CNN
+F 1 "LED_ALT" H 3591 4125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 3600 4000 50  0001 C CNN
+F 3 "~" H 3600 4000 50  0001 C CNN
+	1    3600 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D32
+U 1 1 5D6EA006
+P 3200 4000
+F 0 "D32" H 3191 4216 50  0000 C CNN
+F 1 "LED_ALT" H 3191 4125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 3200 4000 50  0001 C CNN
+F 3 "~" H 3200 4000 50  0001 C CNN
+	1    3200 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D25
+U 1 1 5D6EA010
+P 2800 4000
+F 0 "D25" H 2791 4216 50  0000 C CNN
+F 1 "LED_ALT" H 2791 4125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 2800 4000 50  0001 C CNN
+F 3 "~" H 2800 4000 50  0001 C CNN
+	1    2800 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D18
+U 1 1 5D6EA01A
+P 2400 4000
+F 0 "D18" H 2391 4216 50  0000 C CNN
+F 1 "LED_ALT" H 2391 4125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 2400 4000 50  0001 C CNN
+F 3 "~" H 2400 4000 50  0001 C CNN
+	1    2400 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D11
+U 1 1 5D6EA024
+P 1950 4000
+F 0 "D11" H 1950 4200 50  0000 C CNN
+F 1 "LED_ALT" H 1950 4100 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 1950 4000 50  0001 C CNN
+F 3 "~" H 1950 4000 50  0001 C CNN
+	1    1950 4000
+	0    1    1    0   
+$EndComp
+Text GLabel 3400 3700 1    50   Input ~ 0
+DIG5
+Text GLabel 1950 4150 3    50   Input ~ 0
+SEG0
+Text GLabel 2400 4150 3    50   Input ~ 0
+SEG1
+Text GLabel 2800 4150 3    50   Input ~ 0
+SEG2
+Text GLabel 3200 4150 3    50   Input ~ 0
+SEG3
+Text GLabel 3600 4150 3    50   Input ~ 0
+SEG4
+Text GLabel 4000 4150 3    50   Input ~ 0
+SEG6
+Text GLabel 4400 4150 3    50   Input ~ 0
+SEG7
+Text GLabel 4800 4150 3    50   Input ~ 0
+SEG8
+Wire Wire Line
+	1950 3850 2400 3850
+Connection ~ 2400 3850
+Wire Wire Line
+	2400 3850 2800 3850
+Connection ~ 2800 3850
+Wire Wire Line
+	2800 3850 3200 3850
+Connection ~ 3200 3850
+Wire Wire Line
+	3200 3850 3400 3850
+Connection ~ 3600 3850
+Wire Wire Line
+	3600 3850 4000 3850
+Connection ~ 4000 3850
+Wire Wire Line
+	4000 3850 4400 3850
+Connection ~ 4400 3850
+Wire Wire Line
+	4400 3850 4800 3850
+Wire Wire Line
+	3400 3700 3400 3850
+Connection ~ 3400 3850
+Wire Wire Line
+	3400 3850 3600 3850
+$Comp
+L Device:LED_ALT D59
+U 1 1 5D6EA047
+P 4800 3000
+F 0 "D59" H 4791 3216 50  0000 C CNN
+F 1 "LED_ALT" H 4791 3125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4800 3000 50  0001 C CNN
+F 3 "~" H 4800 3000 50  0001 C CNN
+	1    4800 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D52
+U 1 1 5D6EA051
+P 4400 3000
+F 0 "D52" H 4391 3216 50  0000 C CNN
+F 1 "LED_ALT" H 4391 3125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4400 3000 50  0001 C CNN
+F 3 "~" H 4400 3000 50  0001 C CNN
+	1    4400 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D45
+U 1 1 5D6EA05B
+P 4000 3000
+F 0 "D45" H 3991 3216 50  0000 C CNN
+F 1 "LED_ALT" H 3991 3125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4000 3000 50  0001 C CNN
+F 3 "~" H 4000 3000 50  0001 C CNN
+	1    4000 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D38
+U 1 1 5D6EA065
+P 3600 3000
+F 0 "D38" H 3591 3216 50  0000 C CNN
+F 1 "LED_ALT" H 3591 3125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 3600 3000 50  0001 C CNN
+F 3 "~" H 3600 3000 50  0001 C CNN
+	1    3600 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D31
+U 1 1 5D6EA06F
+P 3200 3000
+F 0 "D31" H 3191 3216 50  0000 C CNN
+F 1 "LED_ALT" H 3191 3125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 3200 3000 50  0001 C CNN
+F 3 "~" H 3200 3000 50  0001 C CNN
+	1    3200 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D24
+U 1 1 5D6EA079
+P 2800 3000
+F 0 "D24" H 2791 3216 50  0000 C CNN
+F 1 "LED_ALT" H 2791 3125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 2800 3000 50  0001 C CNN
+F 3 "~" H 2800 3000 50  0001 C CNN
+	1    2800 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D17
+U 1 1 5D6EA083
+P 2400 3000
+F 0 "D17" H 2391 3216 50  0000 C CNN
+F 1 "LED_ALT" H 2391 3125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 2400 3000 50  0001 C CNN
+F 3 "~" H 2400 3000 50  0001 C CNN
+	1    2400 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D10
+U 1 1 5D6EA08D
+P 1950 3000
+F 0 "D10" H 1950 3200 50  0000 C CNN
+F 1 "LED_ALT" H 1950 3100 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 1950 3000 50  0001 C CNN
+F 3 "~" H 1950 3000 50  0001 C CNN
+	1    1950 3000
+	0    1    1    0   
+$EndComp
+Text GLabel 3400 2700 1    50   Input ~ 0
+DIG6
+Text GLabel 1950 3150 3    50   Input ~ 0
+SEG0
+Text GLabel 2400 3150 3    50   Input ~ 0
+SEG1
+Text GLabel 2800 3150 3    50   Input ~ 0
+SEG2
+Text GLabel 3600 3150 3    50   Input ~ 0
+SEG4
+Text GLabel 4000 3150 3    50   Input ~ 0
+SEG5
+Text GLabel 4400 3150 3    50   Input ~ 0
+SEG7
+Text GLabel 4800 3150 3    50   Input ~ 0
+SEG8
+Wire Wire Line
+	1950 2850 2400 2850
+Connection ~ 2400 2850
+Wire Wire Line
+	2400 2850 2800 2850
+Connection ~ 2800 2850
+Wire Wire Line
+	2800 2850 3200 2850
+Connection ~ 3200 2850
+Wire Wire Line
+	3200 2850 3400 2850
+Connection ~ 3600 2850
+Wire Wire Line
+	3600 2850 4000 2850
+Connection ~ 4000 2850
+Wire Wire Line
+	4000 2850 4400 2850
+Connection ~ 4400 2850
+Wire Wire Line
+	4400 2850 4800 2850
+Wire Wire Line
+	3400 2700 3400 2850
+Connection ~ 3400 2850
+Wire Wire Line
+	3400 2850 3600 2850
+$Comp
+L Device:LED_ALT D58
+U 1 1 5D6EA0B0
+P 4800 2000
+F 0 "D58" H 4791 2216 50  0000 C CNN
+F 1 "LED_ALT" H 4791 2125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4800 2000 50  0001 C CNN
+F 3 "~" H 4800 2000 50  0001 C CNN
+	1    4800 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D51
+U 1 1 5D6EA0BA
+P 4400 2000
+F 0 "D51" H 4391 2216 50  0000 C CNN
+F 1 "LED_ALT" H 4391 2125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4400 2000 50  0001 C CNN
+F 3 "~" H 4400 2000 50  0001 C CNN
+	1    4400 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D44
+U 1 1 5D6EA0C4
+P 4000 2000
+F 0 "D44" H 3991 2216 50  0000 C CNN
+F 1 "LED_ALT" H 3991 2125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 4000 2000 50  0001 C CNN
+F 3 "~" H 4000 2000 50  0001 C CNN
+	1    4000 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D37
+U 1 1 5D6EA0CE
+P 3600 2000
+F 0 "D37" H 3591 2216 50  0000 C CNN
+F 1 "LED_ALT" H 3591 2125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 3600 2000 50  0001 C CNN
+F 3 "~" H 3600 2000 50  0001 C CNN
+	1    3600 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D30
+U 1 1 5D6EA0D8
+P 3200 2000
+F 0 "D30" H 3191 2216 50  0000 C CNN
+F 1 "LED_ALT" H 3191 2125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 3200 2000 50  0001 C CNN
+F 3 "~" H 3200 2000 50  0001 C CNN
+	1    3200 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D23
+U 1 1 5D6EA0E2
+P 2800 2000
+F 0 "D23" H 2791 2216 50  0000 C CNN
+F 1 "LED_ALT" H 2791 2125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 2800 2000 50  0001 C CNN
+F 3 "~" H 2800 2000 50  0001 C CNN
+	1    2800 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D16
+U 1 1 5D6EA0EC
+P 2400 2000
+F 0 "D16" H 2391 2216 50  0000 C CNN
+F 1 "LED_ALT" H 2391 2125 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 2400 2000 50  0001 C CNN
+F 3 "~" H 2400 2000 50  0001 C CNN
+	1    2400 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D9
+U 1 1 5D6EA0F6
+P 1950 2000
+F 0 "D9" H 1950 2200 50  0000 C CNN
+F 1 "LED_ALT" H 1950 2100 50  0000 C CNN
+F 2 "Custom Footprints:LED_0402-Clean" H 1950 2000 50  0001 C CNN
+F 3 "~" H 1950 2000 50  0001 C CNN
+	1    1950 2000
+	0    1    1    0   
+$EndComp
+Text GLabel 3400 1700 1    50   Input ~ 0
+DIG7
+Text GLabel 1950 2150 3    50   Input ~ 0
+SEG0
+Text GLabel 2400 2150 3    50   Input ~ 0
+SEG1
+Text GLabel 2800 2150 3    50   Input ~ 0
+SEG2
+Text GLabel 3200 2150 3    50   Input ~ 0
+SEG3
+Text GLabel 3600 2150 3    50   Input ~ 0
+SEG4
+Text GLabel 4000 2150 3    50   Input ~ 0
+SEG5
+Text GLabel 4400 2150 3    50   Input ~ 0
+SEG6
+Text GLabel 4800 2150 3    50   Input ~ 0
+SEG8
+Wire Wire Line
+	1950 1850 2400 1850
+Connection ~ 2400 1850
+Wire Wire Line
+	2400 1850 2800 1850
+Connection ~ 2800 1850
+Wire Wire Line
+	2800 1850 3200 1850
+Connection ~ 3200 1850
+Wire Wire Line
+	3200 1850 3400 1850
+Connection ~ 3600 1850
+Wire Wire Line
+	3600 1850 4000 1850
+Connection ~ 4000 1850
+Wire Wire Line
+	4000 1850 4400 1850
+Connection ~ 4400 1850
+Wire Wire Line
+	4400 1850 4800 1850
+Wire Wire Line
+	3400 1700 3400 1850
+Connection ~ 3400 1850
+Wire Wire Line
+	3400 1850 3600 1850
+Text GLabel 3200 3150 3    50   Input ~ 0
+SEG3
+$EndSCHEMATC
